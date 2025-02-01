@@ -1,0 +1,150 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 3.3.0.1738256797
+Updated: 2025-01-30 17:06:37
+
+*/
+
+.homes-wrapper.container {
+	max-width: 100%;
+}
+
+.homes-wrapper .home-wrapper img {
+	width: 100%;
+	height: 265px;
+	object-fit: cover;
+	border-radius: 6.09px;
+	margin-bottom: 20px;
+}
+
+.homes-wrapper .home-wrapper:first-child {
+	padding-left: 0;
+}
+
+.homes-wrapper .home-wrapper:last-child {
+	padding-right: 0;
+}
+
+.homes-wrapper .home-wrapper .home-name {
+	margin-top: 18px;
+	color: #273675;
+	display: block;
+	text-align: left;
+	font-family: Raleway, sans-serif;
+	font-size: 16.76px;
+	font-weight: 500;
+	line-height: 19.68px;
+}
+
+
+.homes-wrapper .home-wrapper .home-price {
+	margin-bottom: 30px;
+	color: #273675;
+	display: block;
+	text-align: left;
+	font-family: Raleway, sans-serif;
+	font-size: 14.47px;
+	font-weight: 500;
+	line-height: 16.99px;
+	opacity: .5;
+}
+
+.homes-wrapper .home-wrapper .learn-more-wrapper {
+	text-align: left;
+}
+
+.homes-wrapper .home-wrapper .learn-more,
+#wpforms-submit-268 {
+	background-color: #273675;
+	border-radius: 8px;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Raleway, sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 14.09px;
+	padding: 12px 22px;
+	text-align: center;
+}
+	
+.homes-wrapper .home-wrapper .learn-more:hover,
+#wpforms-submit-268:hover {
+	background-color: #7cabdc;
+}
+
+#our-services {
+	max-width: 544px;
+}
+
+/* Testimonials */
+.wpmtst-testimonial.testimonial {
+	background: #273675;
+	color: #FBF6F2;
+	padding: 60px 80px;
+}
+
+.wpmtst-testimonial.testimonial h3.testimonial-heading {
+	display: none;
+}
+
+.wpmtst-testimonial.testimonial .testimonial-name {
+	font-weight: 700;
+}
+
+/* Get In Touch */
+#get-in-touch .wpforms-container .wpforms-field, #get-in-touch .wp-core-ui div.wpforms-container .wpforms-field {
+    padding: 0 0 15px;
+    position: relative;
+}
+
+#get-in-touch .wpforms-container input[type=text],
+#get-in-touch .wpforms-container input[type=email],
+#get-in-touch .wpforms-container textarea {
+	background-color: rgba(219, 214, 210, 0.22);
+	font-family: Raleway, sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 14.09px;
+}
+
+#wpforms-submit-268 {
+	padding: 12px 44px;
+}
+
+/* Copyright */
+#copyright-contents .elementor-icon-list-item:last-child:after {
+    left: 70px;
+    position: absolute;
+	content: url(http://localhost/numero/wp-content/uploads/2025/01/numero.png);
+}
+
+/* Responsive */
+@media screen and (max-width: 1440px) {
+	#our-services {
+		max-width: 490px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#our-services {
+		max-width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.homes-wrapper .home-wrapper:first-child {
+		padding-left: 12px;
+	}
+
+	.homes-wrapper .home-wrapper:last-child {
+		padding-right: 12px;
+	}	
+}
